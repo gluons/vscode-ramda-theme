@@ -1,0 +1,45 @@
+{
+  "name": "ramda-theme",
+  "displayName": "Ramda Theme",
+  "description": "Ramda REPL theme for Visual Studio Code.",
+  "version": "0.0.1",
+  "publisher": "gluons",
+  "engines": {
+    "vscode": "^1.16.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Ramda",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Ramda-color-theme.json"
+      }
+    ]
+  },
+  "private": true,
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/gluons/vscode-ramda-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gluons/vscode-ramda-theme.git"
+  },
+  "keywords": [
+    "ramda",
+    "ramdajs",
+    "ramda-theme",
+    "dark",
+    "theme",
+    "color-theme"
+  ],
+  "bugs": {
+    "url": "https://github.com/gluons/vscode-ramda-theme/issues"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.2",
+    "eslint-config-gluons": "^2.1.0"
+  }
+}
