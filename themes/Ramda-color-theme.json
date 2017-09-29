@@ -66,7 +66,7 @@
 				"invalid.illegal"
 			],
 			"settings": {
-				"foreground": "#FF5370"
+				"foreground": "#FF5F7C"
 			}
 		},
 		{
@@ -148,6 +148,7 @@
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other",
+				"meta.block support.variable",
 				"source.ts meta.block meta.var variable.other" // Contrast with type
 			],
 			"settings": {
@@ -155,12 +156,12 @@
 			}
 		},
 		{
-			"name": "Block Level Variables Expression",
+			"name": "Variable Function",
 			"scope": [
-				"meta.block meta.var variable.other"
+				"meta.definition.variable entity.name.function"
 			],
 			"settings": {
-				"foreground": "#ffb86c"
+				"foreground": "#50fa7b"
 			}
 		},
 		{
