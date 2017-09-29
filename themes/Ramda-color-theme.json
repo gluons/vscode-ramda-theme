@@ -470,12 +470,21 @@
 			}
 		},
 		{
+			"name": "Markdown - List",
+			"scope": [
+				"text.html.markdown markup.list meta.paragraph"
+			],
+			"settings": {
+				"foreground": "#66d9ef"
+			}
+		},
+		{
 			"name": "Markdown - Markup Raw Inline",
 			"scope": [
 				"text.html.markdown markup.inline.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
@@ -484,7 +493,7 @@
 				"text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#65737E"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
@@ -504,7 +513,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#50fa7b"
 			}
 		},
 		{
@@ -514,7 +523,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#f07178"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -525,7 +534,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -539,8 +548,8 @@
 				"markup.quote markup.bold string"
 			],
 			"settings": {
-				"fontStyle": "bold",
-				"foreground": "#f07178"
+				"fontStyle": "italic bold",
+				"foreground": "#ffb86c"
 			}
 		},
 		{
@@ -574,6 +583,16 @@
 			}
 		},
 		{
+			"name": "Markdown - Blockquote Content",
+			"scope": [
+				"markup.quote beginning.punctuation.definition.quote",
+				"markup.quote meta.paragraph"
+			],
+			"settings": {
+				"foreground": "#66d9ef"
+			}
+		},
+		{
 			"name": "Markup - Quote",
 			"scope": [
 				"markup.quote"
@@ -586,19 +605,22 @@
 		{
 			"name": "Markdown - Link",
 			"scope": [
-				"string.other.link.title.markdown"
+				"meta.link markup.underline.link",
+				"meta.image markup.underline.link.image"
 			],
 			"settings": {
-				"foreground": "#82AAFF"
+				"foreground": "#bd93f9"
 			}
 		},
 		{
 			"name": "Markdown - Link Description",
 			"scope": [
-				"string.other.link.description.title.markdown"
+				"string.other.link.description.title.markdown",
+				"string.other.link.title.markdown",
+				"meta.image string.other.link.description"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#f1fa8c"
 			}
 		},
 		{
@@ -629,7 +651,7 @@
 			}
 		},
 		{
-			"name": "Markdown - Fenced Bode Block",
+			"name": "Markdown - Fenced Code Block",
 			"scope": [
 				"punctuation.definition.fenced.markdown"
 			],
@@ -638,7 +660,7 @@
 			}
 		},
 		{
-			"name": "Markdown - Fenced Bode Block Variable",
+			"name": "Markdown - Fenced Code Block Variable",
 			"scope": [
 				"markup.raw.block.fenced.markdown",
 				"variable.language.fenced.markdown",
