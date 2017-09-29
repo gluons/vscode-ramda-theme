@@ -124,7 +124,8 @@
 		{
 			"name": "Function Declaration",
 			"scope": [
-				"meta.definition.function entity.name.function"
+				"meta.definition.function entity.name.function",
+				"meta.function.expression variable.parameter"
 			],
 			"settings": {
 				"foreground": "#ffb86c"
@@ -148,8 +149,7 @@
 			"name": "Block Level Variables",
 			"scope": [
 				"meta.block variable.other",
-				"meta.block support.variable",
-				"source.ts meta.block meta.var variable.other" // Contrast with type
+				"meta.block support.variable"
 			],
 			"settings": {
 				"foreground": "#50fa7b"
