@@ -3,6 +3,9 @@
   "displayName": "Ramda Theme",
   "description": "Ramda REPL theme for Visual Studio Code.",
   "version": "0.0.1",
+  "scripts": {
+    "build": "vsce package"
+  },
   "publisher": "gluons",
   "engines": {
     "vscode": "^1.16.0"
