@@ -7,10 +7,9 @@
 
 ## Screenshot
 
-![JavaScript](./images/screenshot-js.png)
-
-![TypeScript](./images/screenshot-ts.png)
-
-![Vue](./images/screenshot-vue.png)
-
-![SCSS](./images/screenshot-scss.png)
+<div align="center">
+	<img src="./images/screenshot-js.png" alt="JavaScript">
+	<img src="./images/screenshot-ts.png" alt="TypeScript">
+	<img src="./images/screenshot-vue.png" alt="Vue">
+	<img src="./images/screenshot-scss.png" alt="SCSS">
+</div>
