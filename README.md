@@ -9,12 +9,12 @@
 
 <div align="center">
 
-	![JavaScript](./images/screenshot-js.png)
+![JavaScript](./images/screenshot-js.png)
 
-	![TypeScript](./images/screenshot-ts.png)
+![TypeScript](./images/screenshot-ts.png)
 
-	![Vue](./images/screenshot-vue.png)
+![Vue](./images/screenshot-vue.png)
 
-	![SCSS](./images/screenshot-scss.png)
+![SCSS](./images/screenshot-scss.png)
 
 </div>
