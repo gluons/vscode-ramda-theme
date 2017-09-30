@@ -48,7 +48,8 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
+				"string constant.other.placeholder",
+				"support.variable"
 			],
 			"settings": {
 				"foreground": "#50fa7b"
@@ -92,6 +93,7 @@
 			"scope": [
 				"keyword",
 				"storage.type",
+				"storage.type punctuation.definition.block",
 				"storage.modifier"
 			],
 			"settings": {
