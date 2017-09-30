@@ -7,7 +7,25 @@
 		"editor.lineHighlightBackground": "#ffffff0D",
 		"editor.selectionBackground": "#ffffff1a",
 		"editor.selectionHighlightBackground": "#ffffff1a",
-		"editorLineNumber.foreground": "#6d8a88"
+		"editorLineNumber.foreground": "#6d8a88",
+		"button.background": "#849",
+		"input.background": "#44475a",
+		"input.foreground": "#f8f8f2",
+		"input.placeholderForeground": "#f8f8f299",
+		"dropdown.background": "#44475a",
+		"activityBar.background": "#44475a",
+		"sideBar.background": "#333649",
+		"tab.inactiveBackground": "#333649",
+		"editorGroupHeader.tabsBackground": "#111427",
+		"list.activeSelectionBackground": "#222538",
+		"list.inactiveSelectionBackground": "#222538",
+		"list.inactiveFocusBackground": "#222538",
+		"list.hoverBackground": "#222538",
+		"list.focusBackground": "#222538",
+		"notification.background": "#333649",
+		"notification.buttonBackground": "#849",
+		"debugToolBar.background": "#333649",
+		"statusBar.background": "#849"
 	},
 	"tokenColors": [
 		{
