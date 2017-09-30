@@ -9,7 +9,10 @@
 
 <div align="center">
 	<img src="./images/screenshot-js.png" alt="JavaScript">
+	<br>
 	<img src="./images/screenshot-ts.png" alt="TypeScript">
+	<br>
 	<img src="./images/screenshot-vue.png" alt="Vue">
+	<br>
 	<img src="./images/screenshot-scss.png" alt="SCSS">
 </div>
