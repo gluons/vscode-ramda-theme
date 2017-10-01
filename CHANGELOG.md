@@ -1,5 +1,8 @@
 # Changelog
 
+## v0.0.2
+- Add Visual Studio Marketplace badges.
+
 ## v0.0.1
 **First Release 🎉**
 
