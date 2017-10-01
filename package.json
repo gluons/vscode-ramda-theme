@@ -11,7 +11,7 @@
   "engines": {
     "vscode": "^1.16.0"
   },
-  "icon": "./images/icon.png",
+  "icon": "images/icon.png",
   "galleryBanner": {
     "theme": "dark",
     "color": "#849"
@@ -47,7 +47,6 @@
     "ramdajs",
     "ramda-theme",
     "dark",
-    "theme",
     "color-theme"
   ],
   "bugs": {
