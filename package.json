@@ -3,6 +3,7 @@
   "displayName": "Ramda Theme",
   "description": "Ramda REPL theme for Visual Studio Code.",
   "version": "0.0.1",
+  "private": true,
   "scripts": {
     "build": "vsce package"
   },
@@ -10,6 +11,18 @@
   "engines": {
     "vscode": "^1.16.0"
   },
+  "icon": "./images/icon.png",
+  "galleryBanner": {
+    "theme": "dark",
+    "color": "#849"
+  },
+  "badges": [
+    {
+      "description": "License",
+      "url": "https://img.shields.io/github/license/gluons/vscode-ramda-theme.svg?style=flat-square",
+      "href": "https://github.com/gluons/vscode-ramda-theme/blob/master/LICENSE"
+    }
+  ],
   "categories": [
     "Themes"
   ],
@@ -22,7 +35,6 @@
       }
     ]
   },
-  "private": true,
   "author": "Saran Tanpituckpong <sarunta@gmail.com>",
   "license": "Apache-2.0",
   "homepage": "https://github.com/gluons/vscode-ramda-theme",

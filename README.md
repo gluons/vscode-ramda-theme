@@ -3,8 +3,6 @@
 
 🐏 [Ramda](http://ramdajs.com/) [REPL](http://ramdajs.com/repl/) theme for [Visual Studio Code](https://code.visualstudio.com/).
 
-⏳ WIP ⏳
-
 ## Screenshot
 
 <div align="center">
