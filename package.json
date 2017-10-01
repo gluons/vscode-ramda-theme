@@ -21,6 +21,16 @@
       "description": "License",
       "url": "https://img.shields.io/github/license/gluons/vscode-ramda-theme.svg?style=flat-square",
       "href": "https://github.com/gluons/vscode-ramda-theme/blob/master/LICENSE"
+    },
+    {
+      "description": "Visual Studio Marketplace",
+      "url": "https://vsmarketplacebadge.apphb.com/version/gluons.ramda-theme.svg?style=flat-square",
+      "href": "https://marketplace.visualstudio.com/items?itemName=gluons.ramda-theme"
+    },
+    {
+      "description": "Visual Studio Marketplace installs",
+      "url": "https://vsmarketplacebadge.apphb.com/installs/gluons.ramda-theme.svg?style=flat-square",
+      "href": "https://marketplace.visualstudio.com/items?itemName=gluons.ramda-theme"
     }
   ],
   "categories": [
