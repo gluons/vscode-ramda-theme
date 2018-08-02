@@ -63,7 +63,7 @@
     "url": "https://github.com/gluons/vscode-ramda-theme/issues"
   },
   "devDependencies": {
-    "eslint": "^4.7.2",
-    "eslint-config-gluons": "^2.1.0"
+    "eslint": "^5.2.0",
+    "eslint-config-gluons": "^4.0.0"
   }
 }
