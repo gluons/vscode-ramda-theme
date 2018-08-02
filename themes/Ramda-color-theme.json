@@ -94,7 +94,8 @@
 				"keyword",
 				"storage.type",
 				"storage.type punctuation.definition.block",
-				"storage.modifier"
+				"storage.modifier",
+				"meta.class meta.method.declaration storage.type"
 			],
 			"settings": {
 				"foreground": "#ff79c6"
@@ -158,8 +159,7 @@
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method",
-				"meta.class meta.method.declaration storage.type"
+				"keyword.other.special-method"
 			],
 			"settings": {
 				"foreground": "#66d9ef"
