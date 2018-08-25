@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.0
+- Code clean up.
+
+### Breaking Changes 💥
+- Drop support for VSCode that's older than 1.21.0.
+
+### JavaScript, TypeScript
+- Make class **constructor** to have the same color as class **function**.
+
+## v0.0.3
+- Fix [#3](https://github.com/gluons/vscode-ramda-theme/issues/3).
+
 ## v0.0.2
 - Add Visual Studio Marketplace badges.
 
