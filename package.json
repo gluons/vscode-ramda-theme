@@ -2,14 +2,14 @@
   "name": "ramda-theme",
   "displayName": "Ramda Theme",
   "description": "Ramda REPL theme for Visual Studio Code.",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "build": "vsce package"
   },
   "publisher": "gluons",
   "engines": {
-    "vscode": "^1.21"
+    "vscode": "^1.21.0"
   },
   "icon": "images/icon.png",
   "galleryBanner": {
