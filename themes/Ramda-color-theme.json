@@ -2,38 +2,34 @@
 	"name": "Ramda",
 	"type": "dark",
 	"colors": {
+		"activityBar.background": "#44475a",
+		"button.background": "#849",
+		"debugToolBar.background": "#333649",
+		"dropdown.background": "#44475a",
 		"editor.background": "#282a36",
 		"editor.foreground": "#f8f8f2",
 		"editor.lineHighlightBackground": "#ffffff0D",
 		"editor.selectionBackground": "#ffffff1a",
 		"editor.selectionHighlightBackground": "#ffffff1a",
+		"editorGroupHeader.tabsBackground": "#111427",
 		"editorLineNumber.foreground": "#6d8a88",
-		"button.background": "#849",
 		"input.background": "#44475a",
 		"input.foreground": "#f8f8f2",
 		"input.placeholderForeground": "#f8f8f299",
-		"dropdown.background": "#44475a",
-		"activityBar.background": "#44475a",
-		"sideBar.background": "#333649",
-		"tab.inactiveBackground": "#333649",
-		"editorGroupHeader.tabsBackground": "#111427",
 		"list.activeSelectionBackground": "#222538",
-		"list.inactiveSelectionBackground": "#222538",
-		"list.inactiveFocusBackground": "#222538",
-		"list.hoverBackground": "#222538",
 		"list.focusBackground": "#222538",
-		"notification.background": "#333649",
-		"notification.buttonBackground": "#849",
-		"debugToolBar.background": "#333649",
-		"statusBar.background": "#849"
+		"list.hoverBackground": "#222538",
+		"list.inactiveFocusBackground": "#222538",
+		"list.inactiveSelectionBackground": "#222538",
+		"menu.background": "#333649",
+		"menu.foreground": "#f8f8f2",
+		"notifications.background": "#333649",
+		"sideBar.background": "#333649",
+		"statusBar.background": "#849",
+		"tab.inactiveBackground": "#333649",
+		"titleBar.activeBackground": "#44475a"
 	},
 	"tokenColors": [
-		{
-			"settings": {
-				"foreground": "#eeffffff",
-				"background": "#263238ff"
-			}
-		},
 		{
 			"name": "Comment",
 			"scope": [
@@ -95,7 +91,7 @@
 				"storage.type",
 				"storage.type punctuation.definition.block",
 				"storage.modifier",
-				"meta.class meta.method.declaration storage.type"
+				"meta.class meta.method.declaration meta.block storage.type"
 			],
 			"settings": {
 				"foreground": "#ff79c6"
@@ -223,7 +219,6 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"fontStyle": "normal",
 				"foreground": "#f1fa8c"
 			}
 		},
@@ -250,6 +245,15 @@
 			],
 			"settings": {
 				"foreground": "#ffb86c"
+			}
+		},
+		{
+			"name": "Class Constructor",
+			"scope": [
+				"meta.class meta.method.declaration storage.type"
+			],
+			"settings": {
+				"foreground": "#66d9ef"
 			}
 		},
 		{
@@ -312,7 +316,7 @@
 				"variable.language.this.ts"
 			],
 			"settings": {
-				"fontStyle": "normal",
+				"fontStyle": "",
 				"foreground": "#ff79c6"
 			}
 		},
@@ -517,15 +521,6 @@
 			}
 		},
 		{
-			"name": "Markdown - Line Break",
-			"scope": [
-				"text.html.markdown meta.dummy.line-break"
-			],
-			"settings": {
-				"foreground": ""
-			}
-		},
-		{
 			"name": "Markdown - Heading",
 			"scope": [
 				"markdown.heading",
@@ -583,22 +578,11 @@
 			}
 		},
 		{
-			"name": "Markup - Strike",
-			"scope": [
-				"markup.strike"
-			],
-			"settings": {
-				"fontStyle": "strike",
-				"foreground": ""
-			}
-		},
-		{
 			"name": "Markdown - Blockquote",
 			"scope": [
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"background": "#65737E",
 				"foreground": "#65737E"
 			}
 		},
@@ -610,16 +594,6 @@
 			],
 			"settings": {
 				"foreground": "#66d9ef"
-			}
-		},
-		{
-			"name": "Markup - Quote",
-			"scope": [
-				"markup.quote"
-			],
-			"settings": {
-				"fontStyle": "italic",
-				"foreground": ""
 			}
 		},
 		{
@@ -706,7 +680,6 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"background": "#00000050",
 				"foreground": "#65737E"
 			}
 		},
