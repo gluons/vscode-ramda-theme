@@ -9,7 +9,7 @@
   },
   "publisher": "gluons",
   "engines": {
-    "vscode": "^1.16.0"
+    "vscode": "^1.21"
   },
   "icon": "images/icon.png",
   "galleryBanner": {
