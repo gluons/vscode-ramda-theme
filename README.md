@@ -5,6 +5,16 @@
 
 🐏 [Ramda](http://ramdajs.com/) [REPL](http://ramdajs.com/repl/) theme for [Visual Studio Code](https://code.visualstudio.com/).
 
+## Recommended Settings
+
+If you're using VSCode version 1.26 or greater in Windows or Linux, you can enable [custom custom title bar and menus](https://code.visualstudio.com/updates/v1_26#_custom-title-bar-and-menus-for-windowslinux).
+
+```json
+{
+	"window.titleBarStyle": "custom"
+}
+```
+
 ## Screenshot
 
 <div align="center">
